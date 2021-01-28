@@ -37,5 +37,5 @@ interface FilterInterface
      *
      * @return static
      */
-    public static function __set_state();
+    public static function __set_state( array $properties );
 }
